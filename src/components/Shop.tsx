@@ -61,7 +61,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
             <div className="bg-[#e5e7e6] grid relative place-items-center  rounded-t-3xl">
               <img
                 className="w-50 absolute -top-36"
-                src="src/assets/plant1.png"
+                src="../assets/plant1.png"
                 alt="Alocasia Plant"
               />
             </div>
@@ -138,7 +138,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
             <div className="bg-[#e5e7e6]  grid relative place-items-center  rounded-t-3xl">
               <img
                 className="w-50 absolute -top-36"
-                src="src/assets/plant2.png"
+                src="../assets/plant2.png"
                 alt="Alocasia Plant"
               />
             </div>
