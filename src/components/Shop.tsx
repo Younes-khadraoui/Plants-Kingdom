@@ -9,7 +9,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
         <div className="contact flex gap-10 md:gap-5 justify-center">
           <img
             className="w-[90px] h-[90px]"
-            src="src/assets/phone.png"
+            src="../assets/phone.png"
             alt="phone picture"
           />
           <div className="grid gap-2  content-center">
@@ -19,7 +19,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
         </div>
         <div className="payment flex gap-10 md:gap-5 justify-center">
           <img
-            src="src/assets/payment.png"
+            src="../assets/payment.png"
             alt="payment card picture"
             className="w-[90px] h-[90px]"
           />
@@ -30,7 +30,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
         </div>
         <div className="shipping flex gap-10 md:gap-5 justify-center">
           <img
-            src="src/assets/shipping.png"
+            src="../assets/shipping.png"
             alt="shipping picture"
             className="w-[90px] h-[90px]"
           />
@@ -127,7 +127,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                 <p className="text-sm font-bold">$65.00</p>
                 <img
                   className="w-6 cursor-pointer"
-                  src="src/assets/enter.png"
+                  src="../assets/enter.png"
                   alt="enter button"
                 />
               </div>
@@ -204,7 +204,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                 <p className="text-sm font-bold">$65.00</p>
                 <img
                   className="w-6 cursor-pointer"
-                  src="src/assets/enter.png"
+                  src="../assets/enter.png"
                   alt="enter button"
                 />
               </div>
@@ -215,7 +215,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
             <div className="bg-[#e5e7e6]  grid relative place-items-center rounded-t-3xl">
               <img
                 className="w-50 absolute -top-36"
-                src="src/assets/plant3.png"
+                src="../assets/plant3.png"
                 alt="Alocasia Plant"
               />
             </div>
@@ -281,7 +281,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                 <p className="text-sm font-bold">$65.00</p>
                 <img
                   className="w-6 cursor-pointer"
-                  src="src/assets/enter.png"
+                  src="../assets/enter.png"
                   alt="enter button"
                 />
               </div>
