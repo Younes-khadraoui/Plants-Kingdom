@@ -15,7 +15,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
         <div className="image-1 cursor-pointer relative  transition-all duration-300 hover:grayscale-[70%]">
           <img
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
-            src="../assets/bedroom1.png"
+            src="/assets/bedroom1.png"
             alt="A room with plants"
           />
           <div className="text-white absolute z-10 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center opacity-0 transition-opacity duration-300 hover:opacity-100">
@@ -25,7 +25,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-8 filter brightness-0 invert cursor-pointer"
-                  src="../assets/enter.png"
+                  src="/assets/enter.png"
                   alt="enter button image"
                 />
               </div>
@@ -35,7 +35,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
         <div className="image-2 cursor-pointer row-span-2 relative  transition-all duration-300 hover:grayscale-[70%]">
           <img
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
-            src="../assets/bedroom3.png"
+            src="/assets/bedroom3.png"
             alt="A room with plants"
           />
           <div className="text-white absolute z-10 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center opacity-0 transition-opacity duration-300 hover:opacity-100">
@@ -45,7 +45,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-8 filter brightness-0 invert cursor-pointer"
-                  src="../assets/enter.png"
+                  src="/assets/enter.png"
                   alt="enter button image"
                 />
               </div>
@@ -55,7 +55,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
         <div className="image-3 cursor-pointer relative  transition-all duration-300 hover:grayscale-[70%]">
           <img
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
-            src="../assets/bedroom2.png"
+            src="/assets/bedroom2.png"
             alt="A room with plants"
           />
           <div className="text-white absolute z-10 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center opacity-0 transition-opacity duration-300 hover:opacity-100">
@@ -65,7 +65,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-8 filter brightness-0 invert cursor-pointer"
-                  src="../assets/enter.png"
+                  src="/assets/enter.png"
                   alt="enter button image"
                 />
               </div>
