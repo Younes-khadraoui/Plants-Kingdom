@@ -1,6 +1,10 @@
-const Room = () => {
+import { forwardRef } from "react";
+
+interface Props {}
+
+const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
   return (
-    <div className="p-5 ">
+    <div ref={ref} className="p-5 ">
       <div className="text-center p-10">
         <h2 className="text-4xl pb-5 font-bold font-poppins">Shop by Room</h2>
         <p className="text-sm text-[#828282] font-poppins">
@@ -71,6 +75,6 @@ const Room = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Room;

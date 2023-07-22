@@ -1,6 +1,10 @@
-const Shop = () => {
+import { forwardRef } from "react";
+
+interface Props {}
+
+const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
   return (
-    <div id="shop" className="lg:mt-10 ">
+    <div ref={ref} id="shop" className="lg:mt-10 ">
       <div className="part-one font-poppins p-2 md:p-8 py-20 grid grid-cols-1 md:grid-cols-3 gap-5">
         <div className="contact flex gap-10 md:gap-5 justify-center">
           <img
@@ -36,7 +40,6 @@ const Shop = () => {
           </div>
         </div>
       </div>
-
       <div className="part-two font-poppins min-h-screen px-10 lg:p-10 grid lg:grid-cols-4 gap-5">
         <div className="left-col grid place-items-center">
           <div className=" w-full  p-10 ">
@@ -286,9 +289,8 @@ const Shop = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
-};
+});
 
 export default Shop;
