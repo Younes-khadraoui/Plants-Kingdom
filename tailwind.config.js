@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'home-pic': "url('./assets/plants.png')",
+        'home-pic': "url('/assets/plants.png')",
       },
       fontFamily: {
         'playfair-display': ['"Playfair Display"', 'serif'] ,
