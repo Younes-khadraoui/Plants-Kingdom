@@ -7,7 +7,7 @@ interface Props {
 
 const Navbar = ({handleClick1,handleClick2,handleClick3,handleClick4}:Props) => {
   const navStyle =
-    "text-[#656565] text-lg font-poppins transition ease-in-out duration-500 hover:font-bold 2xl:text-6xl 2xl:mx-10 ";
+    "text-[#2F5128] text-lg font-poppins transition ease-in-out duration-500 hover:font-bold 2xl:text-6xl 2xl:mx-10 ";
 
   return (
     <nav className="flex justify-center absolute top-0 left-0 w-screen h-10 z-10 cursor-pointer">
