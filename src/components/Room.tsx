@@ -17,6 +17,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
             src="/assets/bedroom1.png"
             alt="A room with plants"
+            loading="lazy"
           />
           <div className="text-white absolute z-10 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center opacity-0 transition-opacity duration-300 hover:opacity-100">
             <div>
@@ -27,6 +28,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
                   className="w-8 filter brightness-0 invert cursor-pointer"
                   src="/assets/enter.png"
                   alt="enter button image"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -37,6 +39,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
             src="/assets/bedroom3.png"
             alt="A room with plants"
+            loading="lazy"
           />
           <div className="text-white absolute z-10 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center opacity-0 transition-opacity duration-300 hover:opacity-100">
             <div>
@@ -47,6 +50,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
                   className="w-8 filter brightness-0 invert cursor-pointer"
                   src="/assets/enter.png"
                   alt="enter button image"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -57,6 +61,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
             src="/assets/bedroom2.png"
             alt="A room with plants"
+            loading="lazy"
           />
           <div className="text-white absolute z-10 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center opacity-0 transition-opacity duration-300 hover:opacity-100">
             <div>
@@ -67,6 +72,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
                   className="w-8 filter brightness-0 invert cursor-pointer"
                   src="/assets/enter.png"
                   alt="enter button image"
+                  loading="lazy"
                 />
               </div>
             </div>

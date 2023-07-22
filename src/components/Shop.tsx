@@ -11,6 +11,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
             className="w-[90px] h-[90px]"
             src="/assets/phone.png"
             alt="phone picture"
+            loading="lazy"
           />
           <div className="grid gap-2  content-center">
             <p className="text-2xl font-bold">24/7 Contact</p>
@@ -22,6 +23,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
             src="/assets/payment.png"
             alt="payment card picture"
             className="w-[90px] h-[90px]"
+            loading="lazy"
           />
           <div className="grid gap-2  content-center">
             <p className="text-2xl font-bold">Safe Payment</p>
@@ -33,6 +35,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
             src="/assets/shipping.png"
             alt="shipping picture"
             className="w-[90px] h-[90px]"
+            loading="lazy"
           />
           <div className="grid gap-2 content-center">
             <p className="text-2xl font-bold">Free Shipping</p>
@@ -63,6 +66,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                 className="w-50 absolute -top-36"
                 src="/assets/plant1.png"
                 alt="Alocasia Plant"
+                loading="lazy"
               />
             </div>
             <div className="bg-white shadow-xl rounded-3xl py-5 px-2 grid gap-5">
@@ -129,6 +133,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                   className="w-6 cursor-pointer"
                   src="/assets/enter.png"
                   alt="enter button"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -140,6 +145,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                 className="w-50 absolute -top-36"
                 src="/assets/plant2.png"
                 alt="Alocasia Plant"
+                loading="lazy"
               />
             </div>
             <div className="bg-white  shadow-xl rounded-3xl py-5 px-2 grid gap-5">
@@ -206,6 +212,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                   className="w-6 cursor-pointer"
                   src="/assets/enter.png"
                   alt="enter button"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -217,6 +224,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                 className="w-50 absolute -top-36"
                 src="/assets/plant3.png"
                 alt="Alocasia Plant"
+                loading="lazy"
               />
             </div>
             <div className="bg-white  shadow-xl rounded-3xl py-5 px-2 grid gap-5">
@@ -283,6 +291,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                   className="w-6 cursor-pointer"
                   src="/assets/enter.png"
                   alt="enter button"
+                  loading="lazy"
                 />
               </div>
             </div>
