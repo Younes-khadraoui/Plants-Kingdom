@@ -6,10 +6,8 @@ import Room from "./components/Room";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useRef } from "react";
-import {Cloudinary} from "@cloudinary/url-gen";
 
 function App() {
-  const cld = new Cloudinary({cloud: {cloudName: 'images'}});
   const ref1 = useRef<any>(null);
   const ref2 = useRef<any>(null);
   const ref3 = useRef<any>(null);
