@@ -1,4 +1,12 @@
 import { forwardRef } from "react";
+import phone from "../assets/phone.png"
+import payment from "../assets/payment.png"
+import shipping from "../assets/shipping.png"
+import plant1 from "../assets/plant1.png"
+import enter from "../assets/enter.png"
+import plant2 from "../assets/plant2.png"
+import plant3 from "../assets/plant3.png"
+
 
 interface Props {}
 
@@ -9,7 +17,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
         <div className="contact flex gap-10 md:gap-5 justify-center">
           <img
             className="w-[90px] h-[90px]"
-            src="/assets/phone.png"
+            src={phone}
             alt="phone picture"
             loading="lazy"
           />
@@ -20,7 +28,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
         </div>
         <div className="payment flex gap-10 md:gap-5 justify-center">
           <img
-            src="/assets/payment.png"
+            src={payment}
             alt="payment card picture"
             className="w-[90px] h-[90px]"
             loading="lazy"
@@ -32,7 +40,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
         </div>
         <div className="shipping flex gap-10 md:gap-5 justify-center">
           <img
-            src="/assets/shipping.png"
+            src={shipping}
             alt="shipping picture"
             className="w-[90px] h-[90px]"
             loading="lazy"
@@ -64,7 +72,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
             <div className="bg-[#e5e7e6] grid relative place-items-center  rounded-t-3xl">
               <img
                 className="w-50 absolute -top-36"
-                src="/assets/plant1.png"
+                src={plant1}
                 alt="Alocasia Plant"
                 loading="lazy"
               />
@@ -131,7 +139,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                 <p className="text-sm font-bold">$65.00</p>
                 <img
                   className="w-6 cursor-pointer"
-                  src="/assets/enter.png"
+                  src={enter}
                   alt="enter button"
                   loading="lazy"
                 />
@@ -143,7 +151,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
             <div className="bg-[#e5e7e6]  grid relative place-items-center  rounded-t-3xl">
               <img
                 className="w-50 absolute -top-36"
-                src="/assets/plant2.png"
+                src={plant2}
                 alt="Alocasia Plant"
                 loading="lazy"
               />
@@ -210,7 +218,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                 <p className="text-sm font-bold">$65.00</p>
                 <img
                   className="w-6 cursor-pointer"
-                  src="/assets/enter.png"
+                  src={enter}
                   alt="enter button"
                   loading="lazy"
                 />
@@ -222,7 +230,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
             <div className="bg-[#e5e7e6]  grid relative place-items-center rounded-t-3xl">
               <img
                 className="w-50 absolute -top-36"
-                src="/assets/plant3.png"
+                src={plant3}
                 alt="Alocasia Plant"
                 loading="lazy"
               />
@@ -289,7 +297,7 @@ const Shop = forwardRef<HTMLDivElement,Props>(({},ref) => {
                 <p className="text-sm font-bold">$65.00</p>
                 <img
                   className="w-6 cursor-pointer"
-                  src="/assets/enter.png"
+                  src={enter}
                   alt="enter button"
                   loading="lazy"
                 />

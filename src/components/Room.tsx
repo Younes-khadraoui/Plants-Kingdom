@@ -1,4 +1,8 @@
 import { forwardRef } from "react";
+import bedroom1 from "../assets/bedroom1.png"
+import enter from "../assets/enter.png"
+import bedroom3 from "../assets/bedroom3.png"
+import bedroom2 from "../assets/bedroom2.png"
 
 interface Props {}
 
@@ -15,7 +19,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
         <div className="image-1 cursor-pointer relative  transition-all duration-300 hover:grayscale-[70%]">
           <img
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
-            src="/assets/bedroom1.png"
+            src={bedroom1}
             alt="A room with plants"
             loading="lazy"
           />
@@ -26,7 +30,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-8 filter brightness-0 invert cursor-pointer"
-                  src="/assets/enter.png"
+                  src={enter}
                   alt="enter button image"
                   loading="lazy"
                 />
@@ -37,7 +41,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
         <div className="image-2 cursor-pointer row-span-2 relative  transition-all duration-300 hover:grayscale-[70%]">
           <img
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
-            src="/assets/bedroom3.png"
+            src={bedroom3}
             alt="A room with plants"
             loading="lazy"
           />
@@ -48,7 +52,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-8 filter brightness-0 invert cursor-pointer"
-                  src="/assets/enter.png"
+                  src={enter}
                   alt="enter button image"
                   loading="lazy"
                 />
@@ -59,7 +63,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
         <div className="image-3 cursor-pointer relative  transition-all duration-300 hover:grayscale-[70%]">
           <img
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
-            src="/assets/bedroom2.png"
+            src={bedroom2}
             alt="A room with plants"
             loading="lazy"
           />
@@ -70,7 +74,7 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-8 filter brightness-0 invert cursor-pointer"
-                  src="/assets/enter.png"
+                  src={enter}
                   alt="enter button image"
                   loading="lazy"
                 />
