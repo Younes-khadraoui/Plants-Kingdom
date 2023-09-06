@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import top from "../assets/scroll.png";
 // @ts-ignore
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -14,7 +15,12 @@ const Navbar = () => {
     <div>
       <nav className="flex justify-center absolute top-0 left-0 w-screen h-10 z-10">
         <ul className="p-4 flex gap-4 justify-between ">
-          <li className={navStyle}>
+          <motion.li
+            className={navStyle}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ duration: 0.2 }}
+          >
             <Link
               activeClass="active font-bold"
               to="home"
@@ -24,8 +30,14 @@ const Navbar = () => {
             >
               Home
             </Link>
-          </li>
-          <li className={navStyle}>
+          </motion.li>
+
+          <motion.li
+            className={navStyle}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ duration: 0.2 }}
+          >
             <Link
               activeClass="active font-bold"
               to="shop"
@@ -35,8 +47,14 @@ const Navbar = () => {
             >
               Shop
             </Link>
-          </li>
-          <li className={navStyle}>
+          </motion.li>
+
+          <motion.li
+            className={navStyle}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ duration: 0.2 }}
+          >
             <Link
               activeClass="active font-bold"
               to="rooms"
@@ -46,8 +64,14 @@ const Navbar = () => {
             >
               Rooms
             </Link>
-          </li>
-          <li className={navStyle}>
+          </motion.li>
+
+          <motion.li
+            className={navStyle}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ duration: 0.2 }}
+          >
             <Link
               activeClass="active font-bold"
               to="contact"
@@ -57,7 +81,7 @@ const Navbar = () => {
             >
               Contact
             </Link>
-          </li>
+          </motion.li>
         </ul>
       </nav>
       <button className="fixed bottom-2 right-2 w-12" onClick={scrollToTop}>
