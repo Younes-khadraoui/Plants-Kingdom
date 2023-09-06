@@ -9,10 +9,6 @@ export default {
       backgroundImage: {
         'home-pic': "url('/src/assets/plants.png')",
       },
-      fontFamily: {
-        'playfair-display': ['"Playfair Display"', 'serif'] ,
-        'poppins': ['"Poppins"', 'sans-serif'] 
-      },
       boxShadow: {
         'effect': 'inset 0 -5rem 5rem -5rem #FFFF',
       },

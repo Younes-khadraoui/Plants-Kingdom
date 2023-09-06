@@ -1,31 +1,69 @@
-interface Props {
-  handleClick1: (event:any) => void;
-  handleClick2: (event:any) => void;
-  handleClick3: (event:any) => void;
-  handleClick4: (event:any) => void;
-}
+import top from "../assets/scroll.png";
+// @ts-ignore
+import { Link, animateScroll as scroll } from "react-scroll";
 
-const Navbar = ({handleClick1,handleClick2,handleClick3,handleClick4}:Props) => {
+const Navbar = () => {
   const navStyle =
-    "text-[#2F5128] text-lg font-poppins transition ease-in-out duration-500 hover:font-bold 2xl:text-6xl 2xl:mx-10 ";
+    "text-[#2F5128] text-xl font-poppins 2xl:text-6xl 2xl:mx-10 || lg:text-2xl cursor-pointer";
+
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
   return (
-    <nav className="flex justify-center absolute top-0 left-0 w-screen h-10 z-10 cursor-pointer">
-      <ul className="p-4 flex gap-4 justify-between ">
-        <li onClick={handleClick1} className={navStyle}>
-          Home
-        </li>
-        <li onClick={handleClick2} className={navStyle}>
-          Shop
-        </li>
-        <li onClick={handleClick3} className={navStyle}>
-          Rooms
-        </li>
-        <li onClick={handleClick4} className={navStyle}>
-          Contact
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <nav className="flex justify-center absolute top-0 left-0 w-screen h-10 z-10">
+        <ul className="p-4 flex gap-4 justify-between ">
+          <li className={navStyle}>
+            <Link
+              activeClass="active font-bold"
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
+          <li className={navStyle}>
+            <Link
+              activeClass="active font-bold"
+              to="shop"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Shop
+            </Link>
+          </li>
+          <li className={navStyle}>
+            <Link
+              activeClass="active font-bold"
+              to="rooms"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Rooms
+            </Link>
+          </li>
+          <li className={navStyle}>
+            <Link
+              activeClass="active font-bold"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <button className="fixed bottom-2 right-2 w-12" onClick={scrollToTop}>
+        <img src={top} alt="scroll to top button" />
+      </button>
+    </div>
   );
 };
 

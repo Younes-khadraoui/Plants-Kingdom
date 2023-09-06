@@ -1,17 +1,14 @@
-import { forwardRef } from "react";
-import bedroom1 from "../assets/bedroom1.png"
-import enter from "../assets/enter.png"
-import bedroom3 from "../assets/bedroom3.png"
-import bedroom2 from "../assets/bedroom2.png"
+import bedroom1 from "../assets/bedroom1.png";
+import enter from "../assets/enter.png";
+import bedroom3 from "../assets/bedroom3.png";
+import bedroom2 from "../assets/bedroom2.png";
 
-interface Props {}
-
-const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
+const Room = () => {
   return (
-    <div ref={ref} className="p-5 ">
+    <div className="p-5 " id="rooms">
       <div className="text-center p-10">
-        <h2 className="text-4xl pb-5 font-bold font-poppins">Shop by Room</h2>
-        <p className="text-sm text-[#828282] font-poppins">
+        <h2 className="text-4xl pb-5 font-bold ">Shop by Room</h2>
+        <p className="text-sm text-[#828282] ">
           Turn every room of your home into a jungle
         </p>
       </div>
@@ -21,7 +18,6 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
             src={bedroom1}
             alt="A room with plants"
-            loading="lazy"
           />
           <div className="text-white absolute z-10 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center opacity-0 transition-opacity duration-300 hover:opacity-100">
             <div>
@@ -32,7 +28,6 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
                   className="w-8 filter brightness-0 invert cursor-pointer"
                   src={enter}
                   alt="enter button image"
-                  loading="lazy"
                 />
               </div>
             </div>
@@ -43,7 +38,6 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
             src={bedroom3}
             alt="A room with plants"
-            loading="lazy"
           />
           <div className="text-white absolute z-10 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center opacity-0 transition-opacity duration-300 hover:opacity-100">
             <div>
@@ -54,7 +48,6 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
                   className="w-8 filter brightness-0 invert cursor-pointer"
                   src={enter}
                   alt="enter button image"
-                  loading="lazy"
                 />
               </div>
             </div>
@@ -65,7 +58,6 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
             className=" z-10 w-full h-full object-cover rounded-3xl cursor-pointer  "
             src={bedroom2}
             alt="A room with plants"
-            loading="lazy"
           />
           <div className="text-white absolute z-10 w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center opacity-0 transition-opacity duration-300 hover:opacity-100">
             <div>
@@ -76,7 +68,6 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
                   className="w-8 filter brightness-0 invert cursor-pointer"
                   src={enter}
                   alt="enter button image"
-                  loading="lazy"
                 />
               </div>
             </div>
@@ -85,6 +76,6 @@ const Room = forwardRef<HTMLDivElement, Props>(({},ref) => {
       </div>
     </div>
   );
-});
+};
 
 export default Room;
