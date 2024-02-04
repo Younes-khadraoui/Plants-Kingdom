@@ -1,7 +1,7 @@
-import bedroom1 from "../assets/bedroom1.png";
-import enter from "../assets/enter.png";
-import bedroom3 from "../assets/bedroom3.png";
-import bedroom2 from "../assets/bedroom2.png";
+import bedroom1 from "./assets/bedroom1.png";
+import enter from "./assets/enter.png";
+import bedroom3 from "./assets/bedroom3.png";
+import bedroom2 from "./assets/bedroom2.png";
 
 const Room = () => {
   return (

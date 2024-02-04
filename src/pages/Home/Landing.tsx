@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const Home = () => {
+const Landing = () => {
   return (
     <div id="home">
       <div className="Title bg-cover bg-left bg-home-pic shadow-effect Content pt-20 z-10 h-screen || lg:bg-center ">
@@ -12,7 +12,6 @@ const Home = () => {
           <span className="lg:block">plants and flowers</span>
         </p>
       </div>
-
       <motion.div
         className="absolute w-full h-20 "
         animate={{ y: -80 }}
@@ -24,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Landing;

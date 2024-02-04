@@ -1,10 +1,10 @@
-import phone from "../assets/phone.png";
-import payment from "../assets/payment.png";
-import shipping from "../assets/shipping.png";
-import Plant from "../components/Plant";
-import plant1 from "../assets/plant1.png";
-import plant2 from "../assets/plant2.png";
-import plant3 from "../assets/plant3.png";
+import phone from "./assets/phone.png";
+import payment from "./assets/payment.png";
+import shipping from "./assets/shipping.png";
+import Plant from "./components/Plant";
+import plant1 from "./assets/plant1.png";
+import plant2 from "./assets/plant2.png";
+import plant3 from "./assets/plant3.png";
 
 const Shop = () => (
   <div id="shop" className="lg:mt-20 ">

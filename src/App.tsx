@@ -1,21 +1,14 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Shop from "./pages/Shop";
-import Room from "./pages/Room";
-import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
+import Home from "./pages/Home/Home";
+import { Routes, Route } from "react-router-dom";
+import Plants from "./pages/Plants/Plants";
 
 function App() {
   return (
-    <div className="overflow-hidden">
-      <Navbar />
-      <Home />
-      <Shop />
-      <Room />
-      <Contact />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/plants" element={<Plants />} />
+    </Routes>
   );
 }
 

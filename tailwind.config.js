@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'home-pic': "url('/src/assets/plants.png')",
+        'home-pic': "url('/src/pages/Home/assets/plants.png')",
       },
       boxShadow: {
         'effect': 'inset 0 -5rem 5rem -5rem #FFFF',

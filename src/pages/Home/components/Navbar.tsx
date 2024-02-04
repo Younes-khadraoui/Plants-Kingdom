@@ -1,15 +1,9 @@
 import { motion } from "framer-motion";
-import top from "../assets/scroll.png";
-// @ts-ignore
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const navStyle =
     "text-[#2F5128] text-xl font-poppins 2xl:text-6xl 2xl:mx-10 || lg:text-2xl cursor-pointer";
-
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
 
   return (
     <div>
@@ -84,9 +78,6 @@ const Navbar = () => {
           </motion.li>
         </ul>
       </nav>
-      <button className="fixed bottom-2 right-2 w-12" onClick={scrollToTop}>
-        <img src={top} alt="scroll to top button" />
-      </button>
     </div>
   );
 };
