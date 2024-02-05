@@ -1,5 +1,5 @@
+import { ChevronRightCircle } from "lucide-react";
 import bedroom1 from "./assets/bedroom1.png";
-import enter from "./assets/enter.png";
 import bedroom3 from "./assets/bedroom3.png";
 import bedroom2 from "./assets/bedroom2.png";
 
@@ -25,11 +25,7 @@ const Room = () => {
               <h2 className="text-2xl font-bold">Bedroom</h2>
             </div>
             <div className="flex flex-col items-center">
-              <img
-                className="w-8 filter brightness-0 invert cursor-pointer"
-                src={enter}
-                alt="enter button image"
-              />
+              <ChevronRightCircle />
             </div>
           </div>
         </div>
@@ -46,11 +42,7 @@ const Room = () => {
               <h2 className="text-2xl font-bold">Living room</h2>
             </div>
             <div className="flex flex-col items-center">
-              <img
-                className="w-8 filter brightness-0 invert cursor-pointer"
-                src={enter}
-                alt="enter button image"
-              />
+              <ChevronRightCircle />
             </div>
           </div>
         </div>
@@ -67,11 +59,7 @@ const Room = () => {
               <h2 className="text-2xl font-bold">Balcony</h2>
             </div>
             <div className="flex flex-col items-center">
-              <img
-                className="w-8 filter brightness-0 invert cursor-pointer"
-                src={enter}
-                alt="enter button image"
-              />
+              <ChevronRightCircle />
             </div>
           </div>
         </div>
