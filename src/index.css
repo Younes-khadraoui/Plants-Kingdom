@@ -2,3 +2,13 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", serif;
 }
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.7rem);
+  }
+}

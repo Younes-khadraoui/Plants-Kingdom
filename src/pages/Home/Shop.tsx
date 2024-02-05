@@ -5,9 +5,10 @@ import Plant from "./components/Plant";
 import plant1 from "./assets/plant1.png";
 import plant2 from "./assets/plant2.png";
 import plant3 from "./assets/plant3.png";
+import { Link } from "react-router-dom";
 
 const Shop = () => (
-  <div id="shop" className="lg:mt-20 ">
+  <div id="shop" className="my-20 ">
     <div className="part-one  p-2 md:p-8 py-20 grid grid-cols-1 md:grid-cols-3 gap-5">
       <div className="contact flex gap-10 md:gap-5 justify-center">
         <img className="w-[90px] h-[90px]" src={phone} alt="phone picture" />
@@ -40,21 +41,23 @@ const Shop = () => (
       </div>
     </div>
 
-    <div className="part-two  px-10 grid place-content-center || lg:pt-20 lg:grid-cols-4">
-      <div className="left-col grid content-center w-full  p-10 ">
+    <div className="px-10 w-screen grid place-content-center || lg:pt-20 lg:grid-cols-4">
+      <div className="grid content-center w-full  p-10 ">
         <h2 className="font-bold text-[2rem] ">
-          Best Selling{" "}
+          Best Selling
           <span className="hidden md:inline">
             <br />
-          </span>{" "}
+          </span>
           Plants
         </h2>
-        <p className="text-base cursor-pointer text-[#828282]">
-          see full collection &gt;
-        </p>
+        <Link to="/plants">
+          <p className="text-base cursor-pointer text-[#828282]">
+            see full collection &gt;
+          </p>
+        </Link>
       </div>
 
-      <div className="right-col pt-10 grid  place-content-center gap-10 || lg:col-span-3 lg:grid-cols-3">
+      <div className="grid pt-10 place-content-center gap-10 || sm:col-span-3 sm:grid-cols-3">
         <Plant link={plant1} name="Alocasia" price={44.99} rating={4} />
         <Plant link={plant2} name="Snake" price={64.99} rating={3} />
         <Plant link={plant3} name="Birkin" price={79.99} rating={5} />
